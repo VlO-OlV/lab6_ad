@@ -1,0 +1,41 @@
+.board-cell {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  height: 12.5%;
+  cursor: pointer;
+}
+
+.cell-even {
+  background-color: #404040;
+}
+
+.cell-odd {
+  background-color: #ff8000;
+}
+
+.cell-fox {
+  background-image: url('../images/fox.png');
+  background-position: center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.cell-hound {
+  background-image: url('../images/hound.png');
+  background-position: center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.cell-active::before {
+  position: relative;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  opacity: 0.8;
+  background-color: red;
+}

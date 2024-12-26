@@ -1,0 +1,49 @@
+.board-block {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+}
+
+.buttons-block {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-block button {
+  position: relative;
+  height: 40px;
+  background-color: #404040;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff8000;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttons-block button:hover {
+  border-radius: 10px;
+}
+
+.button_restart {
+  width: 100px;
+}
+
+.button_menu {
+  width: 150px;
+}

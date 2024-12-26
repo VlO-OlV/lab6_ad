@@ -1,0 +1,30 @@
+.message-block {
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: #868686;
+}
+
+.message-block .message {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.message_close {
+  position: relative;
+  height: 20px;
+  background-color: #404040;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff8000;
+  cursor: pointer;
+}

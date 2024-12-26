@@ -1,0 +1,46 @@
+.menu {
+  position: relative;
+  width: 340px;
+  padding: 30px;
+  display: flex;
+  justify-self: center;
+  border-radius: 10px;
+  background-color: #ff8000;
+  border: 2px solid #616161;
+}
+
+.menu-form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-form .input-block {
+  position: relative;
+}
+
+.input_difficulty {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-form_submit {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  background-color: #404040;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff8000;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.menu-form_submit:hover {
+  border-radius: 10px;
+}
